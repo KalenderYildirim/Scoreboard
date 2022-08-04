@@ -1,0 +1,75 @@
+
+
+body {
+    margin: 20;
+    background-image: url("https://media.giphy.com/media/3DrHrnC0JMotPiopno/giphy.gif");
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    color: red;
+    font-weight: bold;
+}
+
+#scoreh {
+    width: 170px;
+    height: 120px;
+    background: black;
+    margin: 0;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Shadows Into Light', cursive;
+
+    
+}
+
+#scoreg {
+    width: 170px;
+    height: 120px;
+    background: black;
+    margin: 0;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Shadows Into Light', cursive;
+
+}
+
+.btns {
+    margin-top: 20px;
+    margin-left: 25px;
+    font-family: "Timer";
+}
+
+.header {
+    margin-left: 15px;
+    font-size: 40px;
+}
+
+#reset {
+    display: flex;
+    justify-content: center;
+    color: red;
+    margin-top: 25px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 2px 2px 2px 2px;
+    border-radius: 30px;
+    background: gray;
+    font-size: 20px;
+    border-bottom: 6px solid;
+    border-right: 6px solid;
+    border-left: 6px solid;
+    border-top: 6px solid
+}
+
+#number {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 30px;
+}

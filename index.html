@@ -1,0 +1,41 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+
+        
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <div class="header"><h3>HOME</h3></div>
+                <p id="scoreh" <span style="color:red">0</span></p>
+                <div class="btns">
+                    <button id="number" onclick="addOne()">+1</button>
+                    <button id="number" onclick="addTwo()">+2</button>
+                    <button id="number" onclick="addThree()">+3</button>
+                </div>
+            </div>
+            <div>
+                    <div class="header">
+                        <h3>GUEST</h3>
+                    </div>
+                <p id="scoreg" <span style="color:red">0</span></p>
+                <div class="btns">
+                    <button id="number" onclick="addOneGuest()">+1</button>
+                    <button id="number" onclick="addTwoGuest()">+2</button>
+                    <button id="number" onclick="addThreeGuest()">+3</button>
+                </div>
+                 
+            </div>
+            
+        
+           
+        </div>
+        
+        <div id="reset" onclick="reset()">New Game</div>
+        <script src="index.js"></script>
+    </body>
+</html>
